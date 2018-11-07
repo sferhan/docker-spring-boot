@@ -1,1 +1,2 @@
+#!/bin/bash
 docker build --build-arg JAR_FILE_PATH=$DOCKERFILE_PATH/build/libs/docker-spring-boot-0.0.1-SNAPSHOT.jar -f $DOCKERFILE_PATH -t $IMAGE_NAME .
