@@ -1,5 +1,4 @@
 .gradle
-/build/
 !gradle/wrapper/gradle-wrapper.jar
 
 ### STS ###
@@ -28,7 +27,8 @@
 ### VS code
 /.vscode
 
-
+/build/*
+/build/*/
+!/build/libs/
 /bin
 /target
-!/build/libs
